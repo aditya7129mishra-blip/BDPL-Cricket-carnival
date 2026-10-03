@@ -1,0 +1,36 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BDPL 2026 | Bengal District Premier League</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css"></head><body>
+<header class="topbar"><a class="brand" href="#home"><span class="brand-mark">🏏</span><span><b>BDPL</b><small>BENGAL DISTRICT PREMIER LEAGUE</small></span></a>
+<div class="mobile-menu" aria-hidden="true">☰</div><nav><a href="#home">Home</a><a href="#auction">Auction</a><a href="#teams">Teams</a><a href="#matches">Matches</a><a href="#table">Points Table</a><a href="#stats">Stats</a><a class="owner" href="/admin.html">Owner</a></nav></header>
+<main>
+<section id="home" class="hero"><div class="hero-overlay"></div><div class="hero-inner">
+<div class="organizer">ORGANISED BY <strong id="organizer"></strong></div>
+<div class="created-by">CREATED BY <strong>ADITYA</strong></div><div class="hero-kicker"><span></span> DIFFERENT DISTRICTS · SAME PASSION · ONE GAME <span></span></div>
+<h1>BDPL</h1><h2>BENGAL DISTRICT <span>PREMIER LEAGUE</span></h2><p>BENGAL'S BIGGEST MULTI-DISTRICT FRANCHISE CRICKET TOURNAMENT</p>
+<div class="hero-buttons"><a class="btn gold" href="#auction">ENTER AUCTION ROOM</a><a class="btn outline" href="#matches">LIVE MATCH CENTRE</a></div>
+<div class="hero-info"><span><em>01</em> AUCTION <b id="auctionDate"></b></span><span><em>02</em> TOURNAMENT <b id="tournamentDate"></b></span><span><em>03</em> VENUE <b id="venue"></b></span></div>
+</div></section>
+
+<section class="ticker"><div><i></i> LIVE AUCTION</div><div>🏆 <b>12</b> FRANCHISES</div><div>👥 <b>192</b> PLAYERS</div><div>💰 <b>₹2.20L</b> PRIZE POOL</div><div>🏟 <b>ASP STADIUM</b></div></section>
+
+<section id="auction" class="section auction-section"><div class="section-title"><div><small>THE BIG STAGE</small><h2>Professional Auction Room</h2></div><span class="live-tag"><i></i> LIVE</span></div>
+<div id="auctionRoom"></div></section>
+
+<section class="section spotlight"><div class="spotlight-copy"><span class="eyebrow">THE BDPL PROMISE</span><h2>Play Local.<br><span>Grow Together.</span></h2><p>One platform for district talent, franchise cricket, live auctions and match-day action. Follow every moment of BDPL 2026 from the public live centre.</p><div class="spotlight-points"><span>⚡ Live updates</span><span>🎯 Player auction</span><span>🏆 Real competition</span></div></div><div class="spotlight-art"><div class="ring ring-a"></div><div class="ring ring-b"></div><div class="ball">🏏</div><b>BDPL<br><small>2026</small></b></div></section>
+
+<section id="teams" class="section"><div class="section-title"><div><small>FRANCHISE HUB</small><h2>Teams & Squads</h2></div><span id="teamCount"></span></div><div id="teamsGrid" class="team-grid"></div></section>
+
+<section id="matches" class="section dark"><div class="section-title"><div><small>MATCH CENTRE</small><h2>Fixtures & Live Scores</h2></div></div><div id="matchesGrid" class="match-grid"></div></section>
+
+<section id="table" class="section"><div class="section-title"><div><small>LEAGUE</small><h2>Points Table</h2></div></div><div id="standings"></div></section>
+
+<section id="stats" class="section dark"><div class="section-title"><div><small>PERFORMANCE</small><h2>Player Leaderboard</h2></div></div><div id="leaderboard" class="leader-grid"></div></section>
+
+<section class="section event"><div class="section-title"><div><small>BDPL 2026</small><h2>Tournament Information</h2></div></div>
+<div class="info-grid"><article><b>Participating Districts</b><p>Paschim Bardhaman · Birbhum · Bankura</p></article><article><b>Franchise Package</b><p>Auction ₹20,000 · Entry ₹20,000 · Jersey ₹5,000</p><strong>₹45,000 Total</strong></article><article><b>Prize Money</b><p>Champions ₹1,20,000 · Runners-up ₹80,000 · 3rd ₹20,000</p><strong>₹2,20,000 Total</strong></article><article><b>Registration</b><p id="contacts"></p></article></div>
+<img class="poster" src="/assets/bdpl-poster.jpg" alt="BDPL Poster"></section>
+</main><footer><div><b>BDPL</b><span>Same Soil. Same People. Same Passion. A Stronger Bengal.</span></div><div class="credits"><span>Organised by <strong>Nilanjan &amp; Shivam</strong></span><span>Created by <strong>Aditya</strong></span></div><a href="/admin.html">Owner Control Centre</a></footer>
+<script src="/socket.io/socket.io.js"></script><script src="/app.js"></script></body></html>

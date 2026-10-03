@@ -1,0 +1,21 @@
+{
+  "name": "bdpl-cricket-auction-v2",
+  "version": "2.0.0",
+  "private": true,
+  "description": "BDPL professional cricket auction and tournament management platform",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {"nodemon": "^3.1.9"}
+}
